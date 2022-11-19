@@ -1,0 +1,29 @@
+array1 = [7,5,10,14,3,9,7]
+array2 = [9,10,3,4,2,5,7,1]
+
+print("this is length of array1",len(array1))
+print("this is length of array2",len(array2))
+
+array1.append(15)
+print(array2.index(7))
+print(array1.index(7))
+array1.append(1)
+array2.append(14)
+array3 = array1
+array3 = array2+array3
+print(array3)
+sevent_count = array3.count(7)
+print("this is  number  7 in tarray3: ",sevent_coun)
+
+array3.sort()
+print("this is array3 after sort:", array3)
+
+array3.remove(7)
+array3.remove(7)
+array3.remove(7)
+print("array3 after remove 7:",array3)
+
+array4 = array3
+array4.reverse
+print(" array3 :",array3)
+print(" array4 :",array4)
